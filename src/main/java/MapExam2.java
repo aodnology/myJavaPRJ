@@ -44,6 +44,7 @@ public class MapExam2 {
             System.out.println("addr : " + rmap.get("addr"));
             System.out.println("dept : " + rmap.get("dept"));
             System.out.println("--------------------------");
+
         }
     }
 }

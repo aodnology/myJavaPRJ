@@ -16,5 +16,6 @@ public class MapExam {
         System.out.println("email : "+ map.get("email"));
         System.out.println("dept : "+map.get("dept"));
         System.out.println("--------------------------------");
+
     }
 }
