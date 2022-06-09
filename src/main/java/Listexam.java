@@ -4,7 +4,7 @@ import java.util.List;
 public class Listexam {
     public static void main(String[] args) {
 
-        List<String> list = new ArrayList<>();
+        List<String>list = new ArrayList<>();
         // 리스트를 스트링 타입으로 만들고 = Array형태로 리스트를 만들겠다 는 뜻
         // 데이터 정렬시    = new LinkedList<>(); 가 더 빠름
 
@@ -24,6 +24,12 @@ public class Listexam {
         // 여러 데이터가 저장되기 때문에 내용을 확인하기 위해서는 반복문을 사용함
         for (int i = 0; i <listSize; i++) {
             System.out.println("이름 : " + list.get(i));
+        }
+
+        System.out.println("");
+
+        for (String name : list){
+            System.out.println("이름 : "+name);
         }
     }
 }

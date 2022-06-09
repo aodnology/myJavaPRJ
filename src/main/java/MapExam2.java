@@ -46,5 +46,12 @@ public class MapExam2 {
             System.out.println("--------------------------");
 
         }
+        for (Map<String, String> name : list) {
+            System.out.println("name : " + name.get("name"));
+            System.out.println("email : " + name.get("email"));
+            System.out.println("addr : " + name.get("addr"));
+            System.out.println("dept : " + name.get("dept"));
+            System.out.println("--------------------------");
+        }
     }
 }
