@@ -2,16 +2,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Method_coffee {
-    public static void main(String[] args) {
-
-        System.out.printf("1. 보통커피 , 2. 설탕커피 , 3. 블랙커피 , 4. 랜덤커피(환불 불가) , 5~99. ???(환불 불가) : ");
-        Scanner s = new Scanner(System.in);
-        int coffee = s.nextInt();
-        int ret = coffee_machine(coffee);
-
-
-    }
-
     static int coffee_machine(int button) {
 
         System.out.println("1. 뜨거운 물 준비한다");
@@ -38,5 +28,12 @@ public class Method_coffee {
         System.out.println("5. 저어서 녹이는 중");
 
         return 0;
+    }
+    public static void main(String[] args) {
+
+        System.out.printf("1. 보통커피 , 2. 설탕커피 , 3. 블랙커피 , 4. 랜덤커피(환불 불가) , 5~99. ???(환불 불가) : ");
+        Scanner s = new Scanner(System.in);
+        int coffee = s.nextInt();
+        coffee_machine(coffee);
     }
 }
