@@ -5,13 +5,12 @@ public class A_Array_ {
         Scanner s = new Scanner(System.in);
         int aa[] = new int[3];
         int hap = 0;
-        int i;
 
-        for (i = 0; i < 3; i++) {
+        for (int i = 0; i < aa.length; i++) {
             System.out.printf((i + 1) + "번째 배열에 입력될 숫자 : ");
             aa[i] = s.nextInt();
         }
-        for (i = 0; i < 3; i++) {
+        for (int i = 0; i < aa.length; i++) {
             System.out.println("aa[" + i + "]" + "=" + aa[i]);
             hap += aa[i];
         }
